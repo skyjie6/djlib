@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/activity_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp">
+
+
+    <Button
+        android:id="@+id/btn_verify_code"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_verify_code"
+        android:minWidth="50dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:text="@string/send"
+        android:textColor="@color/colorBackgroundFloating"
+        android:textSize="12dp"/>
+</RelativeLayout>

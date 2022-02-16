@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PullScrollView">
+        <attr name="header" format="reference" />
+        <attr name="headerHeight" format="dimension" />
+        <attr name="headerVisibleHeight" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="MediumTextView">
+        <attr name="effectEnabled" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="bubble">
+        <attr name="shadowColor" format="color" />
+        <attr name="padding" format="dimension" />
+        <attr name="bubbleStrokeWidth" format="float" />
+        <attr name="bubbleCornerRadius" format="float" />
+        <attr name="halfBaseOfLeg" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundCornerRectView">
+        <attr name="cornerWidth" format="dimension" />
+        <attr name="cornerHeigh" format="dimension" />
+        <attr name="scareTypeFit" format="boolean" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/activity_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp">
+
+    <RelativeLayout
+        android:id="@+id/rl_viewgroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="100dp"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:animateLayoutChanges="true"
+        android:onClick="change"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_login">
+
+        <com.skyjie.djlib.view.LevelTextView
+            android:id="@+id/tv_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"/>
+
+        <TextView
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="next"
+            android:textColor="@color/Colorhighlight"
+            android:textSize="18dp"/>
+    </RelativeLayout>
+
+    <com.skyjie.djlib.view.CustomProgress
+        android:id="@+id/progress"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="#ffffff"
+        android:visibility="invisible"
+        />
+</RelativeLayout>

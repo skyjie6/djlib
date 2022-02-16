@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorAccent">#ff61dec2</color>
+    <color name="half_colorAccent">#9061dec2</color>
+    <color name="Colorhighlight">#ffff637e</color>
+    <color name="Colorline">#ffd8d8d8</color>
+    <color name="colorBackground">#ffefefef</color>
+    <color name="colorBackgroundFloating">#ffffffff</color>
+    <color name="textColorPrimary">#ff000000</color>
+    <color name="textColorSecondary">#ff999999</color>
+    <color name="textColorTertiary">#ffcccccc</color>
+    <color name="baseGradientColorLight">#ffff9a86</color>
+    <color name="baseGradientColorDark">#ffff637e</color>
+
+
+
+    <color name="colorLightTransparentGray">#22ffffff</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="line_color">#ffcdd0d4</color>
+
+    <color name="facebook_blue">#ff4b72d4</color>
+    <color name="twttier_blue">#ff63d6fe</color>
+    <color name="instagram_color">#ffbd76ff</color>
+    <color name="google_red">#fffe6052</color>
+
+    <!--闹钟那边搬过来的-->
+    <color name="main_button_selected">#99909090</color>
+
+    <!--以下颜色非ui设计， 使用请往上放置-->
+    <color name="colorPrimary">#ffFFFFFF</color>
+    <color name="colorPrimaryDark">#ff303F9F</color>
+    <color name="colorTransparentGray">#88ffffff</color>
+    <color name="tencent_tls_ui_transparent">#9000</color>
+
+
+    <color name="background">#ffF9F7F8</color>
+    <color name="line">#ffDDDDDD</color>
+    <color name="btn_live">#ff5F6164</color>
+    <color name="btn_live_press">#ff2F3134</color>
+    <!--主题色激活态，如按钮高亮-->
+    <color name="colorThemeActive">#ffA15C9A</color>
+    <!--红色-->
+    <color name="colorRed">#ffFF3333</color>
+    <!--文字白色-->
+    <color name="colorTextWhite">#ffFFFFFF</color>
+    <!--文字G1-->
+    <color name="colorTextG1">#ffCCCCCC</color>
+    <!--文字G2-->
+    <color name="colorTextG2">#ff999999</color>
+    <!--文字G3-->
+    <color name="colorTextG3">#ff666666</color>
+    <!--文字G4-->
+    <color name="colorTextG4">#ff333333</color>
+    <!--文字black-->
+    <color name="colorTextBlack">#ff000000</color>
+    <!--gray1-->
+    <color name="colorGray1">#ffF0F0F0</color>
+    <!--gray3-->
+    <color name="colorGray3">#ffC8C8C8</color>
+    <!--gray4-->
+    <color name="colorGray4">#ff787878</color>
+    <!--gray6-->
+    <color name="colorGray6">#ff141414</color>
+    <!--蒙版-->
+    <color name="c1">#ff0ACCAC</color>
+    <color name="c2">#ff222b48</color>
+    <color name="c3">#ffF3F3F3</color>
+    <color name="c4">#ffF5F5F5</color>
+    <color name="c5">#ffD8D8D8</color>
+    <color name="c6">#ffFFFFFF</color>
+    <color name="c7">#ff000000</color>
+    <color name="c8">#ffFFFFFF</color>
+    <color name="c9">#ff777777</color>
+
+    <color name="colorDarkTransparentGray">#a4000000</color>
+    <color name="half_transparent">#80ffffff</color>
+    <color name="color_follow_start">#ffff9a86</color>
+    <color name="color_follow_end">#ffff5f76</color>
+    <color name="color_msg_user_name">#ffffe682</color>
+    <color name="color_msg_treasure_box">#ffffb645</color>
+    <color name="color_msg_gift">#ff8ba6</color>
+    <color name="color_msg_heart">#ff8ba6</color>
+    <color name="color_msg_follow_anchor">#61dec2</color>
+    <color name="color_msg_anchor_speak">#ff7a90</color>
+    <color name="color_msg_watcher_speak">#ffa772</color>
+    <color name="level_bg_color">#1A000000</color>
+    <color name="level_progress_color">#ffffc548</color>
+    <color name="shadow_color">#40000000</color>
+    <color name="tip_bg_color">#ffededed</color>
+    <color name="loading_bg_color">#66000000</color>
+    <color name="dialog_activity_bg">#FC000000</color>
+    <color name="color_danmu_bg">#30e7d5</color>
+    <color name="color_danmu_level">#ff6371</color>
+    <color name="color_bg_button">#66ffffff</color>
+    <color name="color_danmu_text">#ffc63c</color>
+    <color name="color_danmu_advanced_text">#ffbb17</color>
+    <color name="color_search_text">#ff999999</color>
+    <color name="color_live_play_bg">#38383e</color>
+</resources>

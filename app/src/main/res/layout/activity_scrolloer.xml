@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <com.example.dangjie.djdemo.view.PullScrollView
+        android:id="@+id/test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="下拉要显示出来的"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:background="@android:color/holo_blue_light"
+                />
+
+
+        </RelativeLayout>
+
+        <com.example.dangjie.djdemo.view.MyScrollView
+            android:id="@+id/myScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rlayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="顶部信息\n顶部信息\n顶部信息\n顶部信息"
+                        android:textSize="40dp"/>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/search02"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dip"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/search_edit"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dip"
+                        android:background="@drawable/add"
+                        android:hint="请输入..."
+                        android:padding="5dip"
+                        android:singleLine="true"
+                        android:textColorHint="#AAAAAA"
+                        android:textSize="15dip"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="测试内容\n测试内容\n测试内容\n测试内容\n测试内容\n测试内容\n测试内容\n测试内容\n测试内容\n测试内容\n测试内容\n测试内容\n测试内容\n测试内容\n测试内容\n测试内容\n测试内容\n测试内容\n测试内容\n测试内容\n测试内容\n测试内容\n测试内容\n测试内容\n测试内容\n测试内容\n测试内容"
+                    android:textSize="40dp"/>
+            </LinearLayout>
+        </com.example.dangjie.djdemo.view.MyScrollView>
+
+    </com.example.dangjie.djdemo.view.PullScrollView>
+
+    <LinearLayout
+        android:id="@+id/search01"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:orientation="vertical">
+    </LinearLayout>
+
+</RelativeLayout>

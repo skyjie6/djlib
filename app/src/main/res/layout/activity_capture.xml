@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/activity_main"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="capture1"
+                android:text="MediaProjection（5.0以上）"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="capture2"
+                android:text="MediaProjection"/>
+
+            <ImageView
+                android:id="@+id/capture_img"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:background="@drawable/ic_launcher_background"
+                android:padding="5dp"
+                android:scaleType="centerInside"/>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
